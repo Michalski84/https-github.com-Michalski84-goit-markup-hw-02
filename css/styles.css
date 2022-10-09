@@ -1,0 +1,195 @@
+:root {
+    --background-color: #FFFFFF;
+    --color: #212121;
+    --hover-color: #2196F3;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color);
+    
+}
+
+.text {
+    line-height: 24px;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+    
+}
+
+.box {
+    background-color: #2F303A;
+}
+
+.header_text {
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 1.36;
+    font-size: 44px;
+    
+}
+
+.size.medium {
+    font-weight: 700;
+    color: var(--color);
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.size-small {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.navi {
+    text-decoration: none;
+    color: var(--color);
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.navi:hover {
+    color: var(--hover-color);
+}
+
+.navi:focus {
+    color: var(--hover-color);
+}
+
+.kontakt {
+    text-decoration: none;
+    color:#757575;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.kontakt:hover {
+    color: var(--hover-color);
+}
+
+.kontakt:focus {
+    color: var(--hover-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+    font-size: 26px;
+    line-height: 1.4;
+}
+
+.web {
+    color: var(--hover-color);
+}
+
+.menu {
+    color:#FFFFFF;
+}
+
+.main_button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border: none;
+}
+
+.main_button:hover {
+    background-color: #E5E5E5;
+    color: var(--hover-color);
+}
+
+.person_name {
+    color: var(--color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+.function {
+    color: #757575;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.footer {
+    background-color: #212121;
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
+
+.contact-link:hover {
+    color: var(--hover-color);
+}
+
+.contact-link:focus {
+    color: var(--hover-color)
+}
+
+.contact-list {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    filter: opacity(60%);
+}
+
+.warsow {
+    font-style: normal;
+}
+
+.menu-button {
+    color: #212121;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    line-height: 1.62;
+}
+
+.menu-button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.menu-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none;
+}
+
+.image-description {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color);
+    line-height: 2;
+
+}
+
+.team {
+    background-color: #F5F4FA;
+}
